@@ -1,7 +1,6 @@
-.photo-grid__item {
+.header__link-items {
   margin: 0;
   padding: 0;
-  border: none;
+  display: flex;
   list-style-type: none;
-  line-height: 0;
 }

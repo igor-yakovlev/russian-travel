@@ -1,27 +1,9 @@
 .cover {
-  position: relative;
   margin: 0;
-  padding: 245px 0;
+  padding:  0;
   overflow: hidden;
-
 }
 
-/* Была введена дополнительная контрольная точка max-width: 550px  для избежания выхода элементов за границу блоков */
 
-@media screen and (max-width: 1024px) {
-  .cover {
-    padding: 195px 0;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .cover {
-    padding: 115px 0;
-  }
-}
 
-@media screen and (max-width: 550px) {
-  .cover {
-    padding: 33px 0;
-  }
-}

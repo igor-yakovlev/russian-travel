@@ -1,0 +1,10 @@
+.header__link-item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-right: 18px;
+}
+
+.header__link-item:last-child {
+  margin-right: 0;
+}

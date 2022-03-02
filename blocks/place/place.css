@@ -16,11 +16,13 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+    margin: 0;
+    padding: 0;
     grid-template-columns: 440px auto;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .place {
     grid-template-columns: 340px auto;
   }
@@ -28,6 +30,8 @@
 
 @media screen and (max-width: 676px)  {
   .place {
+    margin: 0;
+    padding: 0;
     grid-template-columns: auto;
     grid-template-areas:
     "title"
